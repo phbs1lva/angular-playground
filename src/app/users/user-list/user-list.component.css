@@ -1,0 +1,21 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 600px;
+}
+
+.card {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 16px;
+}
+
+.card p {
+  font-size: 14px;
+}
+
+.company {
+  font-weight: 700;
+}
